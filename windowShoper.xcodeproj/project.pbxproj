@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		A51F3BC821CEA62300F8194E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F3BC721CEA62300F8194E /* AppDelegate.swift */; };
-		A51F3BCA21CEA62300F8194E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F3BC921CEA62300F8194E /* ViewController.swift */; };
 		A51F3BCD21CEA62300F8194E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51F3BCB21CEA62300F8194E /* Main.storyboard */; };
 		A51F3BCF21CEA62400F8194E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51F3BCE21CEA62400F8194E /* Assets.xcassets */; };
 		A51F3BD221CEA62400F8194E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51F3BD021CEA62400F8194E /* LaunchScreen.storyboard */; };
+		A51F3BDC21CEBCC500F8194E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F3BDB21CEBCC500F8194E /* MainVC.swift */; };
+		A51F3BE121CED39700F8194E /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F3BE021CED39700F8194E /* CurrencyTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A51F3BC421CEA62300F8194E /* windowShoper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = windowShoper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51F3BC721CEA62300F8194E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A51F3BC921CEA62300F8194E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A51F3BCC21CEA62300F8194E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A51F3BCE21CEA62400F8194E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A51F3BD121CEA62400F8194E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A51F3BD321CEA62400F8194E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51F3BDB21CEBCC500F8194E /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		A51F3BE021CED39700F8194E /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		A51F3BC621CEA62300F8194E /* windowShoper */ = {
 			isa = PBXGroup;
 			children = (
+				A51F3BDD21CEC31F00F8194E /* Views */,
+				A51F3BDA21CEBC3600F8194E /* Controller */,
 				A51F3BC721CEA62300F8194E /* AppDelegate.swift */,
-				A51F3BC921CEA62300F8194E /* ViewController.swift */,
 				A51F3BCB21CEA62300F8194E /* Main.storyboard */,
 				A51F3BCE21CEA62400F8194E /* Assets.xcassets */,
 				A51F3BD021CEA62400F8194E /* LaunchScreen.storyboard */,
 				A51F3BD321CEA62400F8194E /* Info.plist */,
 			);
 			path = windowShoper;
+			sourceTree = "<group>";
+		};
+		A51F3BDA21CEBC3600F8194E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A51F3BDB21CEBCC500F8194E /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A51F3BDD21CEC31F00F8194E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A51F3BE021CED39700F8194E /* CurrencyTextField.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A51F3BCA21CEA62300F8194E /* ViewController.swift in Sources */,
+				A51F3BE121CED39700F8194E /* CurrencyTextField.swift in Sources */,
 				A51F3BC821CEA62300F8194E /* AppDelegate.swift in Sources */,
+				A51F3BDC21CEBCC500F8194E /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
