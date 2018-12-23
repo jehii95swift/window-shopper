@@ -13,7 +13,32 @@
 		A51F3BD221CEA62400F8194E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51F3BD021CEA62400F8194E /* LaunchScreen.storyboard */; };
 		A51F3BDC21CEBCC500F8194E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F3BDB21CEBCC500F8194E /* MainVC.swift */; };
 		A51F3BE121CED39700F8194E /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F3BE021CED39700F8194E /* CurrencyTextField.swift */; };
+		A51F3BF421CF0FA200F8194E /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F3BF321CF0FA200F8194E /* Wage.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A51F3BEB21CF0E1200F8194E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A51F3BBC21CEA62300F8194E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A51F3BC321CEA62300F8194E;
+			remoteInfo = windowShoper;
+		};
+		A51F3C0021CF1C3100F8194E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A51F3BBC21CEA62300F8194E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A51F3BC321CEA62300F8194E;
+			remoteInfo = windowShoper;
+		};
+		A51F3C0E21CF1D2000F8194E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A51F3BBC21CEA62300F8194E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A51F3BC321CEA62300F8194E;
+			remoteInfo = windowShoper;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A51F3BC421CEA62300F8194E /* windowShoper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = windowShoper.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +49,35 @@
 		A51F3BD321CEA62400F8194E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A51F3BDB21CEBCC500F8194E /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		A51F3BE021CED39700F8194E /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		A51F3BE621CF0E1200F8194E /* windowShoperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = windowShoperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51F3BF321CF0FA200F8194E /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
+		A51F3BFB21CF1C3100F8194E /* wili.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wili.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51F3C0921CF1D2000F8194E /* windowShoperTestsIOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = windowShoperTestsIOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A51F3BC121CEA62300F8194E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F3BE321CF0E1200F8194E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F3BF821CF1C3100F8194E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F3C0621CF1D2000F8194E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				A51F3BC421CEA62300F8194E /* windowShoper.app */,
+				A51F3BE621CF0E1200F8194E /* windowShoperTests.xctest */,
+				A51F3BFB21CF1C3100F8194E /* wili.xctest */,
+				A51F3C0921CF1D2000F8194E /* windowShoperTestsIOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +109,7 @@
 		A51F3BC621CEA62300F8194E /* windowShoper */ = {
 			isa = PBXGroup;
 			children = (
+				A51F3BF021CF0F1900F8194E /* Model */,
 				A51F3BDD21CEC31F00F8194E /* Views */,
 				A51F3BDA21CEBC3600F8194E /* Controller */,
 				A51F3BC721CEA62300F8194E /* AppDelegate.swift */,
@@ -83,6 +137,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		A51F3BF021CF0F1900F8194E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A51F3BF321CF0FA200F8194E /* Wage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,6 +165,60 @@
 			productReference = A51F3BC421CEA62300F8194E /* windowShoper.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A51F3BE521CF0E1200F8194E /* windowShoperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51F3BED21CF0E1200F8194E /* Build configuration list for PBXNativeTarget "windowShoperTests" */;
+			buildPhases = (
+				A51F3BE221CF0E1200F8194E /* Sources */,
+				A51F3BE321CF0E1200F8194E /* Frameworks */,
+				A51F3BE421CF0E1200F8194E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A51F3BEC21CF0E1200F8194E /* PBXTargetDependency */,
+			);
+			name = windowShoperTests;
+			productName = windowShoperTests;
+			productReference = A51F3BE621CF0E1200F8194E /* windowShoperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A51F3BFA21CF1C3100F8194E /* wili */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51F3C0221CF1C3100F8194E /* Build configuration list for PBXNativeTarget "wili" */;
+			buildPhases = (
+				A51F3BF721CF1C3100F8194E /* Sources */,
+				A51F3BF821CF1C3100F8194E /* Frameworks */,
+				A51F3BF921CF1C3100F8194E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A51F3C0121CF1C3100F8194E /* PBXTargetDependency */,
+			);
+			name = wili;
+			productName = wili;
+			productReference = A51F3BFB21CF1C3100F8194E /* wili.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A51F3C0821CF1D2000F8194E /* windowShoperTestsIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51F3C1021CF1D2000F8194E /* Build configuration list for PBXNativeTarget "windowShoperTestsIOS" */;
+			buildPhases = (
+				A51F3C0521CF1D2000F8194E /* Sources */,
+				A51F3C0621CF1D2000F8194E /* Frameworks */,
+				A51F3C0721CF1D2000F8194E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A51F3C0F21CF1D2000F8194E /* PBXTargetDependency */,
+			);
+			name = windowShoperTestsIOS;
+			productName = windowShoperTestsIOS;
+			productReference = A51F3C0921CF1D2000F8194E /* windowShoperTestsIOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -115,6 +231,18 @@
 				TargetAttributes = {
 					A51F3BC321CEA62300F8194E = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					A51F3BE521CF0E1200F8194E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A51F3BC321CEA62300F8194E;
+					};
+					A51F3BFA21CF1C3100F8194E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A51F3BC321CEA62300F8194E;
+					};
+					A51F3C0821CF1D2000F8194E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A51F3BC321CEA62300F8194E;
 					};
 				};
 			};
@@ -132,6 +260,9 @@
 			projectRoot = "";
 			targets = (
 				A51F3BC321CEA62300F8194E /* windowShoper */,
+				A51F3BE521CF0E1200F8194E /* windowShoperTests */,
+				A51F3BFA21CF1C3100F8194E /* wili */,
+				A51F3C0821CF1D2000F8194E /* windowShoperTestsIOS */,
 			);
 		};
 /* End PBXProject section */
@@ -147,6 +278,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A51F3BE421CF0E1200F8194E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F3BF921CF1C3100F8194E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F3C0721CF1D2000F8194E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -155,12 +307,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				A51F3BE121CED39700F8194E /* CurrencyTextField.swift in Sources */,
+				A51F3BF421CF0FA200F8194E /* Wage.swift in Sources */,
 				A51F3BC821CEA62300F8194E /* AppDelegate.swift in Sources */,
 				A51F3BDC21CEBCC500F8194E /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A51F3BE221CF0E1200F8194E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F3BF721CF1C3100F8194E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F3C0521CF1D2000F8194E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A51F3BEC21CF0E1200F8194E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A51F3BC321CEA62300F8194E /* windowShoper */;
+			targetProxy = A51F3BEB21CF0E1200F8194E /* PBXContainerItemProxy */;
+		};
+		A51F3C0121CF1C3100F8194E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A51F3BC321CEA62300F8194E /* windowShoper */;
+			targetProxy = A51F3C0021CF1C3100F8194E /* PBXContainerItemProxy */;
+		};
+		A51F3C0F21CF1D2000F8194E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A51F3BC321CEA62300F8194E /* windowShoper */;
+			targetProxy = A51F3C0E21CF1D2000F8194E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A51F3BCB21CEA62300F8194E /* Main.storyboard */ = {
@@ -332,6 +524,120 @@
 			};
 			name = Release;
 		};
+		A51F3BEE21CF0E1200F8194E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = windowShoperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenifer.web.windowShoperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/windowShoper.app/windowShoper";
+			};
+			name = Debug;
+		};
+		A51F3BEF21CF0E1200F8194E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = windowShoperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenifer.web.windowShoperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/windowShoper.app/windowShoper";
+			};
+			name = Release;
+		};
+		A51F3C0321CF1C3100F8194E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wili/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenifer.web.wili;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/windowShoper.app/windowShoper";
+			};
+			name = Debug;
+		};
+		A51F3C0421CF1C3100F8194E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wili/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenifer.web.wili;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/windowShoper.app/windowShoper";
+			};
+			name = Release;
+		};
+		A51F3C1121CF1D2000F8194E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = windowShoperTestsIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenifer.web.windowShoperTestsIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/windowShoper.app/windowShoper";
+			};
+			name = Debug;
+		};
+		A51F3C1221CF1D2000F8194E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = windowShoperTestsIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jenifer.web.windowShoperTestsIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/windowShoper.app/windowShoper";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -349,6 +655,33 @@
 			buildConfigurations = (
 				A51F3BD721CEA62400F8194E /* Debug */,
 				A51F3BD821CEA62400F8194E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51F3BED21CF0E1200F8194E /* Build configuration list for PBXNativeTarget "windowShoperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51F3BEE21CF0E1200F8194E /* Debug */,
+				A51F3BEF21CF0E1200F8194E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51F3C0221CF1C3100F8194E /* Build configuration list for PBXNativeTarget "wili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51F3C0321CF1C3100F8194E /* Debug */,
+				A51F3C0421CF1C3100F8194E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51F3C1021CF1D2000F8194E /* Build configuration list for PBXNativeTarget "windowShoperTestsIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51F3C1121CF1D2000F8194E /* Debug */,
+				A51F3C1221CF1D2000F8194E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
